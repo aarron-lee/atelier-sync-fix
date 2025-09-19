@@ -42,3 +42,15 @@ However, we can't just map the GPU resources directly for the most part, so for 
 - Memory usage as well as CPU utilization are increased.
 - Not all GPU sync points are caught. There are some genuine data dependencies that can't easily be worked around this way, so there will still be situations where GPU load is low, or where the game will stutter briefly.
 - I haven't tested this on Windows at all yet, or in any sort of long gameplay sessions. There may be stability issues.
+
+# Quick Install
+
+```bash
+curl -L https://github.com/aarron-lee/atelier-sync-fix/raw/main/install.sh | sh
+```
+
+You still need to add the wine override to each game:
+
+```
+WINEDLLOVERRIDES="d3d11=n,b" %command%
+```
