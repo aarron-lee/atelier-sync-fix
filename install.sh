@@ -13,10 +13,13 @@ curl -L $(curl -s https://api.github.com/repos/TellowKrinkle/atelier-sync-fix/re
 GAME_DIR_PREFIX="$HOME/.local/share/Steam/steamapps/common"
 
 DEST_DIRS=(
-    "$GAME_DIR_PREFIX/Atelier Ayesha DX/"
-    "$GAME_DIR_PREFIX/Atelier Escha and Logy DX/"
-    "$GAME_DIR_PREFIX/Atelier Shallie DX/"
-    "$GAME_DIR_PREFIX/Atelier Ryza/"
+    "$GAME_DIR_PREFIX/Atelier Ayesha DX"
+    "$GAME_DIR_PREFIX/Atelier Escha and Logy DX"
+    "$GAME_DIR_PREFIX/Atelier Shallie DX"
+    "$GAME_DIR_PREFIX/Atelier Ryza"
+    "$GAME_DIR_PREFIX/Atelier Ryza DX"
+    "$GAME_DIR_PREFIX/Atelier Yumia"
+    "$GAME_DIR_PREFIX/Atelier Yumia Demo"
 )
 
 for dir in "${DEST_DIRS[@]}"; do
