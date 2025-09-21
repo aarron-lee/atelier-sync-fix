@@ -8,7 +8,8 @@ fi
 D3DLL_FILE=$HOME/Downloads/atelier-d3d11.dll
 
 echo "downloading atelier-sync-fix"
-curl -L $(curl -s https://api.github.com/repos/TellowKrinkle/atelier-sync-fix/releases/tags/atelier-sophie-20231022 | grep "browser_download_url" | cut -d '"' -f 4) -o $D3DLL_FILE
+# curl -L $(curl -s https://api.github.com/repos/TellowKrinkle/atelier-sync-fix/releases/tags/atelier-sophie-20231022 | grep "browser_download_url" | cut -d '"' -f 4) -o $D3DLL_FILE
+curl -L $(curl -s curl -s https://api.github.com/repos/aarron-lee/atelier-sync-fix/releases/latest | grep "browser_download_url" | cut -d '"' -f 4) -o $D3DLL_FILE
 
 GAME_DIR_PREFIX="$HOME/.local/share/Steam/steamapps/common"
 
