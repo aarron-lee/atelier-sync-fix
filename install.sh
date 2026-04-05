@@ -18,7 +18,11 @@ DEST_DIRS=(
     "$GAME_DIR_PREFIX/Atelier Escha and Logy DX"
     "$GAME_DIR_PREFIX/Atelier Shallie DX"
     "$GAME_DIR_PREFIX/Atelier Ryza"
+    "$GAME_DIR_PREFIX/Atelier Ryza 2"
+    "$GAME_DIR_PREFIX/Atelier Ryza 3"
     "$GAME_DIR_PREFIX/Atelier Ryza DX"
+    "$GAME_DIR_PREFIX/Atelier Ryza 2 DX"
+    "$GAME_DIR_PREFIX/Atelier Ryza 3 DX"
     "$GAME_DIR_PREFIX/Atelier Yumia"
     "$GAME_DIR_PREFIX/Atelier Yumia Demo"
 )
