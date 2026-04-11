@@ -29,6 +29,7 @@ DEST_DIRS=(
 
 for dir in "${DEST_DIRS[@]}"; do
     if [ -d "$dir" ]; then
+        rm "$dir/d3d11.dll"
         echo "Copying d3d11.dll to $dir..."
         ln "$D3DLL_FILE" "$dir/d3d11.dll"
     else
